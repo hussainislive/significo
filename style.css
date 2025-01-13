@@ -85,6 +85,21 @@ body[theme="white"] .section {
   .craft {
     padding: 10px;
   }
+
+
+  ::-webkit-scrollbar {
+  width: 0.5rem;
+  display: none;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #fff0;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b6969;
+  border-radius: 10px;
+}
+
   .masker span {
     font-size: 0.9rem;
   }
